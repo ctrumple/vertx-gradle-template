@@ -1,12 +1,14 @@
-# Vert.x Gradle Template
+# Clean Vert.x Gradle Template
 
-Template project for creating a Vert.x module with a Gradle build.
+Fork of https://github.com/vert-x/vertx-gradle-template
 
-Clone this and adapt it to easily develop Vert.x modules using Gradle as your build tool.
+Clean vert-x gradle template, tagged with vert-x version.
 
-By default this module contains a simple Java verticle which listens on the event bus and responds to `ping!`
-messages with `pong!`.
+Start with clean history:
 
-This template also shows you how to write tests in Java, Groovy, Ruby and Python
+1. Clone
+2. Remove .git folder
+3. git init .
+4. Modify build.gradle & gradle.properties & src/main/resources/mod.json to match your info
+5. Initial Commit
 
-See the [build script](build.gradle) for the list of useful tasks
